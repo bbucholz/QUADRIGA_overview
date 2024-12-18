@@ -1,0 +1,66 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: einleitung
+options:
+  numbered: true
+parts:
+  - caption: Präambel
+    chapters:
+      - file: präambel/lernziele
+      - file: präambel/technische_vorraussetzungen
+  - caption: A Struktur und didaktisches Konzept
+    numbered: true
+    chapters:
+      - file: struktur_didaktisches_konzept/struktur
+      - file: struktur_didaktisches_konzept/didaktisches_konzept
+  - caption: B Technologiestack
+    numbered: true
+    chapters:
+      - file: technologiestack/zusammenspiel_der_tools
+      - file: technologiestack/grafische_aufbereitung
+      - file: entwicklung/einleitung
+        sections:
+        - file: entwicklung/git
+        - file: entwicklung/unix
+        - file: entwicklung/python
+        - file: entwicklung/jupyter_book
+        - file: entwicklung/editor
+      - file: formatierung/einleitung
+        sections:
+        - file: formatierung/markdown
+        - file: formatierung/notebooks
+        - file: formatierung/markdown-notebooks
+        - file: formatierung/link_in_neuem_tab
+        - file: formatierung/abbildungen
+        - file: formatierung/videos
+        - file: formatierung/admonitions
+  - caption: C Lernstandskontrolle (Assessment)
+    numbered: true
+    chapters:
+      - file: assessment/einleitung
+        sections:
+        - file: assessment/zielgruppe
+        - file: assessment/selbstlern-oer
+        - file: assessment/formen
+        - file: assessment/auswahl
+        - file: assessment/assessment_genAI
+      - file: assessment/umsetzung
+        sections:
+        - file: assessment/umsetzung/jupyterquiz
+        - file: assessment/umsetzung/selbstkontrolle
+        - file: assessment/umsetzung/test-driven_assessment
+  - caption: Reflexion und Resümee
+    numbered: true
+    chapters:
+      - file: reflexion_und_resümee/abschlussassessment
+      - file: reflexion_und_resümee/zusammenfassung
+      - file: reflexion_und_resümee/weiterführende_hinweise
+  - caption: Hinterwerk
+    chapters:
+      - file: hinterwerk/fragen_und_feedback
+      - file: hinterwerk/literaturverzeichnis
+      - file: hinterwerk/authors
+      - file: hinterwerk/quadriga
+      - file: hinterwerk/impressum
